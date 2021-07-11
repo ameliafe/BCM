@@ -7,10 +7,10 @@
 
 import Foundation
 
-class MethodButton: Identifiable, Decodable {
+class MethodButton: Identifiable, Decodable, ObservableObject {
    //add data and functions to pass in from higher level, this can be the environment object that gets passed around to the button view element on each view screen
     var id:UUID?
     var name:String
-    var buttonstate:Double
+    var favorite:Bool
     
 }

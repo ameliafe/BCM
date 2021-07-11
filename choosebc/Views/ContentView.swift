@@ -35,7 +35,7 @@ struct ContentView: View {
                         Text("all methods")
                     }
                 }
-            testview()
+            Text("this will be the about page")
 
                 .tabItem {
                     VStack{
@@ -51,7 +51,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .environmentObject(MethodButtonModel())
-            .environmentObject(ButtonTest3())
+            
     }
 }

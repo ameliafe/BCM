@@ -42,9 +42,15 @@ struct LandingPageView: View {
                 label: {
                     Text( "Emergency Contraception")
                 })
+            NavigationLink(
+                destination: testview(),
+                label: {
+                    Text( "Test View")
+                })
             
 
         }.navigationBarTitle("I want to pick my birth control based on....")
+        .environmentObject(MethodButtonModel())
         
         }
         
@@ -54,7 +60,7 @@ struct LandingPageView: View {
 
 struct LandingPageView_Previews: PreviewProvider {
     static var previews: some View {
-        LandingPageView()
-            .environmentObject(ButtonTest3())
+        LandingPageView().environmentObject(MethodButtonModel())
+            
     }
 }

@@ -12,8 +12,7 @@ struct choosebcApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(ButtonTest3())
-                .environmentObject(MethodButtonModel())
+                
         }
     }
 }

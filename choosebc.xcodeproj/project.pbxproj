@@ -13,7 +13,6 @@
 		F51699122654703C00795E1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51699112654703C00795E1B /* Preview Assets.xcassets */; };
 		F516991F2655D96500795E1B /* landingpageview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F516991E2655D96500795E1B /* landingpageview.swift */; };
 		F52173C92661C08F0044D2DC /* methodbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52173C82661C08F0044D2DC /* methodbutton.swift */; };
-		F52173CB2661C1E30044D2DC /* methodbuttonmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52173CA2661C1E30044D2DC /* methodbuttonmodel.swift */; };
 		F52173CF2661C4210044D2DC /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52173CE2661C4210044D2DC /* DataService.swift */; };
 		F52173D32661C7E70044D2DC /* testview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52173D22661C7E70044D2DC /* testview.swift */; };
 		F5388D622659BC280099B4F6 /* efficacyview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5388D612659BC280099B4F6 /* efficacyview.swift */; };
@@ -22,7 +21,7 @@
 		F5388D682659BF960099B4F6 /* nonhormonalview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5388D672659BF960099B4F6 /* nonhormonalview.swift */; };
 		F5388D6A2659C1E00099B4F6 /* heavyperiodview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5388D692659C1E00099B4F6 /* heavyperiodview.swift */; };
 		F5388D6C2659C2320099B4F6 /* emergencycontraceptionview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5388D6B2659C2320099B4F6 /* emergencycontraceptionview.swift */; };
-		F5FD4C85265AB89E00C6B144 /* buttontestmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD4C84265AB89E00C6B144 /* buttontestmodel.swift */; };
+		F5B9C485269B9A1400E3B745 /* methodbuttonmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B9C484269B9A1400E3B745 /* methodbuttonmodel.swift */; };
 		F5FD4C87265C857200C6B144 /* favoritestabview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FD4C86265C857200C6B144 /* favoritestabview.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +34,6 @@
 		F51699132654703C00795E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F516991E2655D96500795E1B /* landingpageview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landingpageview.swift; sourceTree = "<group>"; };
 		F52173C82661C08F0044D2DC /* methodbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = methodbutton.swift; sourceTree = "<group>"; };
-		F52173CA2661C1E30044D2DC /* methodbuttonmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = methodbuttonmodel.swift; sourceTree = "<group>"; };
 		F52173CC2661C29D0044D2DC /* buttons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = buttons.json; sourceTree = "<group>"; };
 		F52173CE2661C4210044D2DC /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		F52173D22661C7E70044D2DC /* testview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testview.swift; sourceTree = "<group>"; };
@@ -45,7 +43,7 @@
 		F5388D672659BF960099B4F6 /* nonhormonalview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nonhormonalview.swift; sourceTree = "<group>"; };
 		F5388D692659C1E00099B4F6 /* heavyperiodview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heavyperiodview.swift; sourceTree = "<group>"; };
 		F5388D6B2659C2320099B4F6 /* emergencycontraceptionview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emergencycontraceptionview.swift; sourceTree = "<group>"; };
-		F5FD4C84265AB89E00C6B144 /* buttontestmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttontestmodel.swift; sourceTree = "<group>"; };
+		F5B9C484269B9A1400E3B745 /* methodbuttonmodel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = methodbuttonmodel.swift; sourceTree = "<group>"; };
 		F5FD4C86265C857200C6B144 /* favoritestabview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoritestabview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +101,6 @@
 		F5169919265479FC00795E1B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F5FD4C84265AB89E00C6B144 /* buttontestmodel.swift */,
 				F52173C82661C08F0044D2DC /* methodbutton.swift */,
 			);
 			path = Models;
@@ -112,7 +109,7 @@
 		F516991A26547A0800795E1B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				F52173CA2661C1E30044D2DC /* methodbuttonmodel.swift */,
+				F5B9C484269B9A1400E3B745 /* methodbuttonmodel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -219,8 +216,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B9C485269B9A1400E3B745 /* methodbuttonmodel.swift in Sources */,
 				F516990D2654703B00795E1B /* ContentView.swift in Sources */,
-				F52173CB2661C1E30044D2DC /* methodbuttonmodel.swift in Sources */,
 				F516990B2654703B00795E1B /* choosebcApp.swift in Sources */,
 				F5388D642659BE1C0099B4F6 /* frequencyview.swift in Sources */,
 				F52173D32661C7E70044D2DC /* testview.swift in Sources */,
@@ -233,7 +230,6 @@
 				F5388D682659BF960099B4F6 /* nonhormonalview.swift in Sources */,
 				F5388D662659BF4A0099B4F6 /* methodofuseview.swift in Sources */,
 				F52173C92661C08F0044D2DC /* methodbutton.swift in Sources */,
-				F5FD4C85265AB89E00C6B144 /* buttontestmodel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
